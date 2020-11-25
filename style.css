@@ -1,0 +1,592 @@
+.bodycolor {
+    background-color: #D9D9D9;
+
+}
+
+.centerimage{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+
+/*main nav bar css */
+
+.header {
+    overflow: hidden; 
+    background-color: #D9D9D9;
+	padding: 20px 10px; 
+}
+
+.header a {
+    float: left; 
+    color: #353940; 
+    text-align: center; 
+    padding: 12px; 
+    text-decoration: none;
+    font-family:"Abhaya Libre";
+    font-size: 18px; 
+    line-height: 25px; 
+    border-radius: 4px;
+}
+
+.header a.logo{
+    font-family:"Abhaya Libre";
+    font-size: 25px; 
+    color: #353940; 
+}
+
+.header a.logo:hover{
+    text-decoration:none; 
+    
+}
+
+.header a:hover {
+    text-decoration:underline;
+	color: white;
+}
+
+
+.header-right {
+    float: right;
+}
+
+/* icons */
+
+.icons {
+    padding-top:20px;
+    padding-left:45px;
+}
+
+#linkedin {
+    display:inline-block;
+    width:40px;
+    height:40px;
+}
+
+#email {
+    display:inline-block;
+    width:50px;
+    padding-left: 10px; 
+}
+
+.card_div {
+    float:right;
+    width:75%;
+    padding-top:20px;
+    padding-right:100px;
+    padding-left:100px;
+    
+}
+
+.view_article_button {
+    width:50px;
+}
+
+/*main bio */
+.card-header {
+    font-family:"Abhaya Libre";
+    font-size: 18px; 
+    text-align:center;
+}
+
+
+/*main bio */
+
+.homebio {
+    display:block;
+    padding-top:50px;
+    padding-left:100px;
+     float: left;
+}
+
+.circle {
+    width:200px;
+    height:200px;
+    border-radius:50%; 
+}
+
+
+.biotitle {
+    font-family:"Abhaya Libre";
+    font-size:40px;
+    color: #353940;
+    text-align:center;
+}
+
+
+#journalist {
+    color: white;
+    font-size:22px;
+    font-family:"Abhaya Libre";
+    text-align:center;
+}
+
+
+/*about me page */
+
+.aboutme {
+    float:left;
+    width:710px;
+    margin-left:100px;
+    padding-top:20px;
+}
+
+#about_image {
+    float:right;
+    padding-top:82px;
+    padding-right:55px;
+    width:34%;
+    }
+
+.biotext {
+    font-family:"Abhaya Libre";
+    color: #353940;
+    font-size:17.4px;
+}
+
+#about_title {
+    font-family:"Abhaya Libre";
+    font-style:bold;
+    color: #353940;
+    font-size:40px;
+    padding-bottom:10px;
+}
+
+/* publications */
+
+.publications {
+    margin-top:20px;
+}
+
+#publications_title {
+    font-family:"Abhaya Libre";
+    color: #353940;
+    font-size:40px;
+    text-align: center;
+    margin:40px;
+}
+
+.sub_pubtitle {
+    font-family:"Abhaya Libre";
+    color:#353940;
+    font-size:30px;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+#lecture_image {
+    float:right;
+    width:30%;
+    padding-top:90px;
+    padding-right:50px;
+    margin:10px;
+}
+
+
+/* publications nav bar*/
+
+
+.topnav {
+    display:flex;
+    text-align:center;
+    background-color: #333;
+    margin:40px;
+    padding:10px 30px;
+}
+
+.topnav a {
+    font-family:"Abhaya Libre";
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 30.95px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    background-color:#485B73;
+}
+
+.topnav a.active {
+  background-color: #353940;
+  color: white;
+}
+
+/* cards */
+
+.card-title {
+    font-family: "Abhaya Libre";
+    text-align: center;
+    font-weight:bold;
+    color:#404040;
+}
+
+.card-text {
+    text-align: center;
+    font-family: "Abhaya Libre";
+}
+
+.text-muted {
+    font-family: "Abhaya Libre";
+}
+
+.view_article {
+    padding-bottom:15px;
+    text-align:center;
+    font-family:"Abhaya Libre";
+    font-size:16px;
+}
+
+/* sub nav -- pages */
+
+#JPIA {
+    height:1650px;
+    padding-top:50px;
+    padding-left:50px;
+    padding-right:50px;
+    background-color:#D9D9D9;
+    overflow:hidden;
+}
+
+#ESPN_Coastal {
+    height:1850px;
+    padding-top:50px;
+    padding-left:50px;
+    padding-right:50px;
+    background-color:#E3E3E2;
+    overflow:hidden;
+}
+
+#CitadelSports {
+    height:750px;
+    padding-top:50px;
+    padding-left:50px;
+    padding-right:50px;
+    background-color:#D9D9D9;
+    overflow:hidden;
+}
+
+#CooperSquared {
+   height:750px;
+    padding-top:50px; 
+    background-color:#E3E3E2;
+    overflow:hidden;
+}
+
+
+#ChicagoLawReview {
+    height:840px;
+    padding-top:50px;
+    background-color:#D9D9D9;
+    overflow:hidden;
+    
+}
+
+#Other {
+    height:1500px;
+    padding-top:50px;
+    padding-left:50px;
+    padding-right:50px;
+    background-color:#E3E3E2;
+}
+
+/* multimedia */
+
+.multimedia_title {
+    font-family:"Abhaya Libre";
+    color: #353940;
+    font-size:40px;
+    text-align: center;
+    margin:40px;
+}
+
+.centervideo {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:760px; 
+    height:440px;
+}
+
+.video_title {
+    font-family:"Abhaya Libre";
+    color:#353940;
+    font-size:25px;
+    text-align:center;
+    text-decoration:underline;
+    margin-bottom:20px;
+}
+
+.video_break {
+    padding-top:50px;
+}
+
+.video_description {
+    text-align:center;
+    color: #353940; 
+    font-size:20px;
+    font-family:"Abhaya Libre";
+}
+
+
+/* iphone size */
+
+@media only screen 
+  and (min-device-width: 375px) and (max-device-width:812px) { 
+
+
+    .bodycolor {
+        background-color:#D0D3D9;
+
+    }
+
+
+    /*main nav bar css */
+    
+    .header {
+        overflow: hidden; 
+        background-color: #D0D3D9;
+        padding: 20px 5px; 
+        }   
+
+
+    .header a {
+        float: left; 
+        color: #353940; 
+        text-align: center; 
+        padding: 5px; 
+        text-decoration: none;
+        font-family:"Abhaya Libre";
+        font-size: 10px; 
+        line-height: 5px; 
+    }
+
+    .header a.logo{
+        font-family:"Abhaya Libre";
+        font-size: 11px; 
+        color: #353940; 
+    }
+
+
+    /* icons */
+
+    .icons {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #linkedin {
+        width:70px;
+        height:70px;
+    }
+
+    #email {
+        width:80px;
+    }
+
+
+    /*main bio cards */
+    .card-header {
+        font-size: 20px; 
+    }
+    
+    .card_div {
+        width:100%;
+        padding-right:20px;
+        padding-left:20px;
+        padding-top:30px;
+
+    }
+    
+
+    .homebio {
+        padding-top:20px;
+        padding-left:60px;
+        padding-right:65px;
+    }
+
+    .circle {
+        width:250px;
+        height:250px;
+    }
+
+
+    .biotitle {
+        font-size:55px;
+    }
+
+
+    #journalist {
+        font-size:28px;
+        font-family:"Abhaya Libre";
+    }
+
+
+    /*about me page */
+
+    .aboutme {
+        float:center;
+        text-align:center;
+        width:310px;
+        margin-left:32.5px;
+        margin-right:32px;
+    }
+
+    .biotext {
+        font-size: 14px;
+    }
+
+    #about_title {
+        font-size:25px;
+        padding:0px;
+    }
+    
+   #about_image {
+    padding-top:10px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:25px;
+    width:100%;
+    }
+
+    /* publications */
+
+
+    #publications_title {
+        font-size:28px;
+        margin:20px;
+    }
+
+    .sub_pubtitle {
+        font-family:"Abhaya Libre";
+        color:#353940;
+        font-size:28px;
+        text-align: center;
+        margin-bottom:20px;
+    }
+
+    #lecture_image {
+        float:center;
+        width:60%;
+        padding-top:0px;
+        padding-right:65px;
+        margin:10px;
+    }
+
+
+    /* publications nav bar*/
+      
+    .topnav {
+        display:inline;
+        background-color:#D0D3D9;
+        margin:0px;
+        padding:0px 0px;
+    }
+
+    .topnav a {
+        display:inline-block;
+        text-align:left;
+        color:white;
+        padding:10px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+        .topnav a:hover {
+            width:100%;
+
+        }
+
+        .topnav a.active {
+          background-color: #353940;
+          color: white;
+        }
+
+    /* sub nav -- pages */
+
+
+    #JPIA {
+        height:3870px;
+        padding-top:40px;
+        padding-left:50px;
+        padding-right:50px;
+        background-color:#D9D9D9;
+    }
+      
+    #ESPN_Coastal {
+        height:3040px;
+        padding-top:40px;
+        padding-left:50px;
+        padding-right:50px;
+        background-color:#E3E3E2;
+      }
+      
+    #CitadelSports {
+        height:650px;
+        padding-top:50px;
+        padding-left:50px;
+        padding-right:50px;
+        background-color:#D9D9D9;
+}
+      
+
+    #CooperSquared {
+        height:650px;
+        padding-top:50px;
+        padding-right:50px;
+        padding-left:50px;
+        background-color:#E3E3E2; 
+    }
+
+
+    #ChicagoLawReview {
+        height:1000px;
+        padding-top:45px;
+        padding-right:50px;
+        padding-left:50px;
+        background-color:#D0D3D9;
+
+    }
+
+    #Other {
+        height:2200px;
+        padding-top:50px;
+        padding-right:50px;
+        padding-left:50px;
+        background-color:#E3E3E2;
+    }
+      
+    
+    /* multimedia */
+      
+        .multimedia_title {
+            font-size:28px;
+            margin:20px;
+        }
+
+
+        .centervideo {
+            width:320px; 
+            height:180px;
+        }
+
+        .video_title {
+            margin:20px;
+            font-size:18px;
+        }
+
+        .video_break {
+            padding-top:30px;
+        }
+
+        .video_description {
+            margin:20px;
+            font-size:12px;
+        }
+      
+}
+    
+    
