@@ -269,8 +269,10 @@
 }
 
 #CooperSquared {
-   height:750px;
+    height:800px;
     padding-top:50px; 
+    padding-left:50px;
+    padding-right:50px;
     background-color:#E3E3E2;
     overflow:hidden;
 }
