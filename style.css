@@ -338,6 +338,113 @@
     font-family:"Abhaya Libre";
 }
 
+/* blog */
+
+.blog {
+    margin-top:20px;
+    margin-bottom:50px;
+}
+
+#blog_header {
+    font-family:"Abhaya Libre";
+    color: #353940;
+    font-size:40px;
+    text-align: center;
+    margin:40px;
+}
+
+#blog_card {
+    margin-left:-100px;
+}
+
+#blog_image {
+    width:600px;
+    padding-bottom:20px;
+}
+
+#blog_title {
+    font-family:"Abhaya Libre";
+    text-align:left;
+    font-size:30px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#blog_title:hover {
+    text-decoration:underline;
+    color: #353940; 
+}
+
+#blog_date {
+    font-family:"Abhaya Libre";
+    text-align:left; 
+    font-size:15px;
+    padding-top:20px;
+    padding-bottom:20px;
+    
+}
+
+#blog_text {
+    font-family:"Abhaya Libre";
+    text-align:left;
+    line-height: 2;
+}
+
+#blog_right {
+    margin-right:-100px;
+}
+
+.article_links {
+    font-family:"Abhaya Libre";
+    font-size:20px;
+    color: #353940;
+}
+
+.article_links:hover {
+    text-decoration:underline;
+    color: #353940; 
+}
+
+
+/* article */
+
+.article {
+    margin-top:20px;
+    margin-bottom:50px;
+}
+
+.article_title {
+    font-family:"Abhaya Libre";
+    text-align:center;
+    font-weight:bold;
+    font-size:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.article_date {
+    font-family:"Abhaya Libre";
+    text-align:center; 
+    font-size:20px;
+    padding-bottom:20px;
+}
+
+.article_image {
+    width:700px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.article_body {
+   display:flex; 
+    justify-content: center;
+}
+.article_text {
+    font-family:"Abhaya Libre";
+    font-size:17px;
+    width:700px;
+}
 
 /* iphone size */
 
@@ -595,6 +702,56 @@
             font-size:12px;
         }
       
+}
+
+/* blog */
+
+#blog_card {
+    margin-left:0px;
+    margin-top:-20px;
+}
+
+#blog_image {
+    width:300px;
+}
+
+#blog_title {
+    font-family:"Abhaya Libre";
+    text-align:left;
+    font-size:30px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+
+#blog_right {
+    margin-right:-125px;
+    margin-top:20px;
+}
+
+
+/* article */
+
+
+.article_title {
+    font-size:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.article_date {
+    text-align:center; 
+    font-size:18px;
+    padding-bottom:10px;
+}
+
+.article_image {
+    width:300px;
+}
+
+.article_text {
+    font-size:18px;
+    width:300px;
 }
     
     
