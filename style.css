@@ -307,14 +307,14 @@
     color: #353940;
     font-size:40px;
     text-align: center;
-    margin:40px;
+    margin:20px;
 }
 
 .centervideo {
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width:760px; 
+    width:750px; 
     height:440px;
 }
 
@@ -683,9 +683,14 @@
     
     /* multimedia */
       
+      .multimedia {
+          margin-top:20px;
+            margin-bottom:180px;
+        }
+      
         .multimedia_title {
             font-size:28px;
-            margin:20px;
+            margin:0px;
         }
 
 
