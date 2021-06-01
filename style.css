@@ -130,13 +130,15 @@
     width:710px;
     margin-left:100px;
     padding-top:20px;
+    padding-bottom:40px;
 }
 
 #about_image {
     float:right;
-    padding-top:82px;
-    padding-right:55px;
-    width:34%;
+    padding-top:100px;
+    padding-left:20px;
+    padding-right:40px;
+    width:43%;
     }
 
 .biotext {
@@ -566,10 +568,10 @@
     }
     
    #about_image {
-    padding-top:10px;
+    padding-top:0px;
     padding-left:15px;
     padding-right:15px;
-    padding-bottom:25px;
+    padding-bottom:180px;
     width:100%;
     }
 
