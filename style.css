@@ -55,7 +55,7 @@
 
 .icons {
     padding-top:20px;
-    padding-left:45px;
+    padding-left:20px;
 }
 
 #linkedin {
@@ -68,6 +68,12 @@
     display:inline-block;
     width:50px;
     padding-left: 10px; 
+}
+
+#twitter {
+    display:inline-block;
+    width:50px;
+    padding-left:10px;
 }
 
 .card_div {
@@ -262,7 +268,7 @@
 }
 
 #PA_Inquirer {
-    height:750px;
+    height:1450px;
     padding-top:50px;
     padding-left:50px;
     padding-right:50px;
@@ -508,6 +514,8 @@
         display:block;
         margin-left:auto;
         margin-right:auto;
+        padding-top:30px;
+        padding-left:15px;
     }
 
     #linkedin {
@@ -516,6 +524,10 @@
     }
 
     #email {
+        width:80px;
+    }
+      
+    #twitter {
         width:80px;
     }
 
@@ -530,6 +542,7 @@
         padding-right:20px;
         padding-left:20px;
         padding-top:30px;
+        padding-bottom:30px;
 
     }
     
@@ -543,17 +556,26 @@
     .circle {
         width:250px;
         height:250px;
+        margin-left:auto;
+        margin-right:auto;
+        padding-left:20px;
     }
 
 
     .biotitle {
-        font-size:55px;
+        font-size:60px;
+        margin-left:auto;
+        margin-right:auto;
+        padding:0px;
     }
 
 
     #journalist {
         font-size:28px;
         font-family:"Abhaya Libre";
+        margin-left:auto;
+        margin-right:auto;
+        padding:0px;
     }
 
 
@@ -657,7 +679,7 @@
       }
     
     #PA_Inquirer {
-        height:770px;
+        height:2250px;
         padding-top:50px;
         padding-left:50px;
         padding-right:50px;
